@@ -1,0 +1,62 @@
+.search {
+    position: absolute;
+    top: 39px;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.search__guestNumber {
+    position: absolute;
+    top: 349px;
+    padding: 10px 0;
+    width: 100%;
+    border-top: 0.5px solid lightgray;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    color:rgb(88, 85, 85);
+}
+
+.search__guestNumber > h2 {
+    flex: 1;
+    padding-left: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.search__guestNumber > input {
+    border: none;
+    padding-left: 10px;
+    padding-right: 40px;
+    width: 50px;
+    font-weight: 600;
+    font-size: large;
+    padding-top: 7px;
+    color:rgb(88, 85, 85);
+}
+
+.search__guestIcon {
+    padding-top: 5px ;
+}
+
+.search__guestNumber > input:focus {
+    outline-width: 0;
+} 
+
+
+.search > button {
+    position: absolute;
+    top: 401px;
+    text-transform: inherit !important;
+    background-color: #ff7779;
+    color: white;
+    width: 100%;
+}
+
+/* button hover color inverse*/
+.search > button:hover {
+    background-color: white;
+    color: #ff7779;
+}
